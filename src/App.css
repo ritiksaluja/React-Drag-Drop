@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.drag {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    padding: 10px;  
+    cursor: grab; 
+}
+
+.header span {
+    width: 100px;
+    text-align: center;
+}
+
+
+
+.drop{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow-y: scroll;
+    padding: 10px;
+    cursor: grab;
+
+}
+
+.btn{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn span {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
